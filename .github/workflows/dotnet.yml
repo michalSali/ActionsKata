@@ -28,7 +28,7 @@ jobs:
     - run: dotnet test ActionsKataExample.Tests
 
   publish:
-    needs: publish
+    needs: test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
