@@ -32,4 +32,4 @@ jobs:
     - uses: actions/setup-dotnet@v2
       with:
         dotnet-version: '6.0.x'
-    - run: dotnet publish ActionsKataExampleTests
+    - run: dotnet publish ActionsKataExample
